@@ -1,0 +1,17 @@
+window.ENV = {
+  ENVIRONMENT: 'dev',
+  REDIRECT_URI: 'http://localhost:3000/login',
+  DOMAIN: 'signin-test.allocate-cloud.co.uk',
+  AUDIENCE: 'https://identityv2.allocate-cloud.co.uk/',
+  CLIENT_ID: 't0KCqj0HOwyQmEkJekbY6eMV27l0G7gh',
+  CLIENT_ID_MOBILE: 'dqoP9Cpr3yQ5Mv4Xguf8EZ5OWuANB2Pd',
+  SCOPES: 'read:current_user openid profile email healthsuite',
+  BASE_URL: 'http://localhost:3000',
+  SOCIAL_BASE_URL: 'https://dev.loop.allocate-dev.co.uk/api',
+  PREMIUMAPI_BASE_URL: 'https://dev.loop.allocate-dev.co.uk/premiumapi',
+  ROSTERINGAPI_BASE_URL: 'https://dev.loop.allocate-dev.co.uk/rosteringapi',
+  REROUTINGAPI_BASE_URL: 'https://devweb.loop.allocate-dev.co.uk',
+  MAX_NUMBER_RECIPIENTS: 2100,
+  MAX_NUMBER_SELECTED_RECIPIENTS_API: 5000,
+  AUTHV2_URL: 'https://identity-api-test.allocate-cloud.co.uk',
+};
